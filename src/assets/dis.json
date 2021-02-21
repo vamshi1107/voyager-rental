@@ -1,0 +1,92 @@
+[
+    {
+        "name": "swift",
+        "link": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Swift/7083/1587199027573/front-left-side-47.jpg?tr=h-140",
+        "mileage": "21",
+        "cost": "100",
+        "type": "HATCHBACK",
+        "rating": "4",
+        "company": "marutisuzuki"
+    },
+    {
+        "name": "ertiga",
+        "link": "https://content.jdmagicbox.com/quickquotes/images_main/ertiga-2018-vdi-pearl-metallic-oxford-blue-106699474-nd8kn.png",
+        "mileage": "18",
+        "cost": "200",
+        "type": "MUV",
+        "rating": "2.5",
+        "company": "marutisuzuki"
+    },
+    {
+        "name": "ecosport",
+        "link": "https://images.financialexpress.com/2017/11/Ford-EcoSport-main-large.jpg?w=660&h=440&imflag=true",
+        "mileage": "18",
+        "cost": "150",
+        "type": "SUV",
+        "rating": "3",
+        "company": "ford"
+    },
+    {
+        "name": "breeza",
+        "link": "https://images.financialexpress.com/2018/05/maruti-suzuki-vitara-brezza-icreate_827x510_81476955706.jpg",
+        "mileage": "19",
+        "cost": "150",
+        "type": "SUV",
+        "rating": "2",
+        "company": "marutisuzuki"
+    },
+    {
+        "name": "verna",
+        "link": "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Verna/6788/1585562805709/front-left-side-47.jpg?tr=w-135",
+        "mileage": "18",
+        "cost": "120",
+        "type": "SEDAN",
+        "rating": "2.5",
+        "company": "hyundai"
+    },
+    {
+        "name": "i20",
+        "link": "https://images.hindustantimes.com/auto/img/2020/11/04/600x338/i20_2_1582000641150_1604501827814.jpeg",
+        "mileage": "21",
+        "cost": "100",
+        "type": "HATCHBACK",
+        "rating": "3",
+        "company": "hyundai"
+    },
+    {
+        "name": "rapid",
+        "link": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http%3A%2F%2Fcms.haymarketindia.net%2Fmodel%2Fuploads%2Fmodelimages%2Frapidmodelimage.jpg&h=578&w=872&c=1",
+        "mileage": "19",
+        "cost": "120",
+        "type": "SEDAN",
+        "rating": "2.5",
+        "company": "skoda"
+    },
+    {
+        "name": "creta",
+        "link": "https://images.financialexpress.com/2020/08/hyundai-creta-big.jpg?w=1200&h=800&imflag=true",
+        "mileage": "16",
+        "cost": "150",
+        "type": "SUV",
+        "rating": "3.5",
+        "company": "hyundai"
+    },
+    {
+        "name": "baleno",
+        "link": "https://etimg.etb2bimg.com/thumb/msid-73765762,width-1200,resizemode-4/.jpg",
+        "mileage": "22",
+        "cost": "150",
+        "type": "HATCHBACK",
+        "rating": "2.7",
+        "company": "marutisuzuki"
+    },
+    {
+        "name": "alto",
+        "link": "https://stimg.cardekho.com/images/carexteriorimages/360x240/Maruti/Maruti-Alto-800/1556028710229/047.jpg",
+        "mileage": "24",
+        "cost": "100",
+        "type": "HATCHBACK",
+        "rating": "2",
+        "company": "marutisuzuki"
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+    "name":"Thar",
+    "link":
+    "https://firebasestorage.googleapis.com/v0/b/example-e2b44.appspot.com/o/car_ex.jpg?alt=media&token=03d2b00f-f19c-498c-a52a-8a5ca742e1ad"
+     ,
+     "mileage":"15kmpl",
+     "cost":"1000",
+     "type":"JEEP",
+     "rating":"0",
+     "company":"mahendhra"
+    },
+    {"name":"innova",
+    "mileage":"19kmpl",
+    "cost":"1100",
+    "type":"MUV"
+
+
+    },
+    {"name":"ertiga","type":"MUV"},
+    {"name":"Jeep","type":"JEEP"},
+    {"name":"swift","type":"SEDAN"}
+
+]

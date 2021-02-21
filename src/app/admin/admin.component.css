@@ -1,0 +1,45 @@
+.apage{
+    height: 70vh;
+    width: 60vw;
+    background-color: aliceblue;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#adhead{
+    font-size: 25px;
+    font-family: fantasy;
+    text-align: center;
+   color: black;
+}
+
+#in{
+margin-top: 100px;
+}
+.ad_in{
+    width: 350px;
+
+}
+
+#ad_log{
+    width: 350px;
+    background-color: aqua;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#ad_log:hover{
+    background-color: aliceblue;
+}
+
+#ad_log2{
+    margin-top: 28vh;
+    width: 350px;
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+}

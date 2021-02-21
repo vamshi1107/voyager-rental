@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body style="overflow: hidden;">
+  <div class="page" id="start">
+    <mat-tab-group mat-align-tabs="center" id="tab" animationDuration="0ms">
+      <mat-tab label="Login">
+        <div id="fron">
+          <span id="head">LOGIN</span>
+          <span id="rp">{{this.resp}}</span>
+          <input type="text" #user placeholder="Email" class="login" id="username" (change)="validate([user.value,pass.value])">
+          <input type="password" #pass (keyup.enter)="enter(pass.value)" placeholder="Password" class="login"
+            id="password" (change)="validate([user.value,pass.value])">
+          <button class="login" id="logbut" (click)="validate([user.value,pass.value])">LOGIN</button>
+          <button (click)="back()" class="login" id="back">back</button>
+          <a routerLink="/admin" id="adlink">ADMIN LOGIN</a>
+        </div>
+      </mat-tab>
+      <mat-tab label="Resgister">
+        <div id="rpage">
+          <br>
+          <p id="msg">{{msg}}</p>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>FIRST NAME</mat-label>
+            <input matInput placeholder="FIRST NAME" [(ngModel)]="first" required>
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>LAST NAME</mat-label>
+            <input matInput placeholder="LAST NAME" [(ngModel)]="last">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>EMAIL</mat-label>
+            <input matInput placeholder="abc@example.com" required [(ngModel)]="username">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>PASSWORD</mat-label>
+            <input matInput placeholder="PASSWORD" required [(ngModel)]="password" type="password">
+          </mat-form-field><br>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>ADDRESS</mat-label>
+            <input matInput placeholder="ADDRESS" required [(ngModel)]="address" type="text">
+          </mat-form-field>
+          <table>
+            <tr>
+              <td>
+                <mat-form-field appearance="outline" id="age">
+                  <mat-label>AGE</mat-label>
+                  <input matInput placeholder="18" type="number" [(ngModel)]="age">
+                </mat-form-field>
+              </td>
+              <td>
+                <div id="tdin">
+
+                </div>
+              </td>
+              <td colspan="3">
+                <div id="finp">
+                  <b id="lname">LICENSE PROOF</b><input type="file" accept=".jpeg,.jpg,.png" required
+                    (change)="upload($event)" >
+                </div>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+        <button class="login" id="regbut" (click)="register()">PROCEED</button>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+
+  <div class="page" id="out">
+    <span id="greet"> THANK YOU</span>
+  </div>
+</body>
+
+</html>

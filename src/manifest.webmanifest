@@ -1,0 +1,17 @@
+{
+  "name": "VOYAGER",
+  "short_name": "VOYAGER",
+  "theme_color": "#363029",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/icons/insurance.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

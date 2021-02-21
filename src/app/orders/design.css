@@ -1,0 +1,46 @@
+#whole{
+    width: 40vw;
+    padding-top: 50px;
+    text-align: center;
+}
+table{
+    width: 100%;
+
+}
+table tr{
+    width: 100%;
+   display: flex;
+    justify-content: space-between;
+}
+.d_head{
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+td{
+    margin: 5px 5px 5px 5px;
+}
+
+.d_r{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.d_data{
+    font-size: 20px;
+    font-family: fantasy;
+    color: red;
+}
+
+#d_hp{
+    font-family: fantasy;
+    font-size: 23px;
+}
+
+#pr{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: fantasy;
+    color: blue;
+}

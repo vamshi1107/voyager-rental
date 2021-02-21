@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="ppage" id="st">
+    <p id="num">PHONE VERIFICATION</p>
+
+    <mat-form-field appearance="outline" id="in">
+      <mat-label>phone</mat-label>
+      <input matInput placeholder="PHONE" required [(ngModel)]="phone" type="text">
+    </mat-form-field>
+    <div id="repcon"></div>
+    <button (click)="verify()">VERIFY</button>
+  </div>
+  <div class="ppage" id="ed">
+    <p id="num">PHONE VERIFICATION</p>
+
+    <mat-form-field appearance="outline" id="ot">
+      <mat-label>OTP</mat-label>
+      <input matInput placeholder="OTP" required [(ngModel)]="otp" type="text">
+    </mat-form-field>
+    <button (click)="rec()">VERIFY</button>
+
+  </div>
+</body>
+
+</html>

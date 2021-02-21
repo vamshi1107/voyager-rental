@@ -1,0 +1,71 @@
+.tp{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/example-e2b44.appspot.com/o/travel.jpg?alt=media&token=1dbc892a-29ee-46d1-95e6-cfdf7dfc3d26");
+    background-size: 100% 100%;
+    font-family: fantasy;
+    font-size: 23px;
+    top: -90px;
+    z-index: -10;
+}
+.tp span{
+    position: relative;
+    float: left;
+    margin-top:400px;
+    margin-left:80%;
+    color: rgb(228, 62, 11);
+    width: 290px;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 95%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin: auto;
+}
+.container #ele{
+    min-width: 350px;
+    width: 350px;
+    height: 350px;
+    min-height: 350px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.container::-webkit-scrollbar{
+    width: 0px;
+}
+
+*::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
+
+.pic{
+    height: 250px; 
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.heading{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    color: whitesmoke;
+    background-image: linear-gradient(45deg,red,black);
+}
+
+#rt{
+    text-align: center;
+}

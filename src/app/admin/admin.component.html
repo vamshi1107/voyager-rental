@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="apage" id="ad_on">
+        <p id="adhead">ADMIN</p>
+        <mat-form-field appearance="outline" id="in" class="ad_in">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="email" required [(ngModel)]="username" type="text">
+          </mat-form-field>
+          <mat-form-field appearance="outline"  class="ad_in">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="password" required [(ngModel)]="password" type="password">
+          </mat-form-field>
+          <button (click)="check()" id="ad_log">LOGIN</button>
+    </div>
+    <div class="apage" id="ad_boa">
+        <button (click)="logoff()" id="ad_log2">LOGOUT</button>
+    </div>
+</body>
+</html>

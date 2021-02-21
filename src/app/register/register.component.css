@@ -1,0 +1,169 @@
+.regis{
+    height: 80vh;
+    width: 70vw;
+    background-color: aliceblue;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resbut{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 30vw;
+    border-radius: 25px;
+    bottom: 10px;
+}
+
+#resbut:active,:focus{
+    outline: none;
+}
+
+#regend{
+    display: none;
+}
+
+
+#return{
+    position: relative;
+    margin-left: 45%;
+   
+}
+
+.page{
+    height: 80vh;
+    width: 70vw;
+    background-color: aliceblue;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 3vh;
+    background-color: aliceblue;
+    outline: none;
+    margin: 20px;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 1px solid grey;
+}
+
+#logout{
+    position: absolute;
+    bottom: 0px;
+}
+
+#tile{
+    margin: 10px 10px 10px 10px;
+    width: 50vw;
+}
+
+
+#lop{
+    position: relative;
+   justify-content: space-between;
+    width: 40vw;
+    font-family: fantasy;
+}
+
+#exp{
+    overflow: auto;
+}
+
+#exp::-webkit-scrollbar{
+    width: 10px;
+}
+
+#dgrp{
+display: flex;
+flex-direction: column;
+}
+.date{
+    height: 30px;
+    width: 180px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#lop{
+    font: 1em sans-serif;
+}
+
+#book{
+    height: 30px;
+    width: 60px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    background-color: aquamarine;
+}
+
+#book:hover{
+    background-color: aliceblue;
+}
+
+#bimg{
+    border-radius: 15px;
+}
+
+#rates{
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#sug{
+    margin-top: 30px;
+    width: 70vw;
+    height: 20vh;
+    border-radius: 8vh;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
+}
+
+h3{
+    text-align: center;
+    font-size: 23px;
+    font-family: fantasy;
+}
+
+#in{
+    position: relative;
+    margin-left: 20vw;
+    width: 350px;
+}
+
+#sugbut{
+    margin-left: 20px;
+}

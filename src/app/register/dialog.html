@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>ENTER YOUR PHONE NUMBER</p>
+    <input type="text">
+    <div>
+        <button (click)="onNoClick()" #phone>CANCEL</button>
+        <button (click)="send(phone.value)">OK</button>
+      </div>
+      
+</body>
+</html>

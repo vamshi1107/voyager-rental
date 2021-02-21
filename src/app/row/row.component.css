@@ -1,0 +1,72 @@
+
+#tp{
+    margin-top: -90px;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: 95%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin: auto;
+}
+.container #ele{
+    min-width: 350px;
+    width: 350px;
+    height: 350px;
+    min-height: 350px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.979);
+    border-radius: 30px;
+}
+
+.container::-webkit-scrollbar{
+    width: 0px;
+}
+
+*::-webkit-scrollbar{
+    scroll-behavior: smooth;
+}
+
+
+.box{
+    text-align: center;
+}
+
+#ele{
+    display: flex;
+    flex-direction: column;
+}
+
+#carimg{
+ 
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+#ele{
+    justify-content: space-between;
+    
+}
+
+#add{
+    margin: 10px;
+}
+
+#cname{
+    font-family: fantasy;
+    font-size: large;
+}

@@ -1,0 +1,42 @@
+.gali{
+    height: 80vh;
+    width: 99%;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/example-e2b44.appspot.com/o/cycle.jpg?alt=media&token=8bd11531-fced-4313-9b95-15c6d562b3f7");
+    background-size: 100% 100%;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+#cele{
+   padding: 10px;
+    height: 330px;
+    width: 330px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+
+#c_con{
+    margin-top: 20px;
+    width: 97%;
+    padding-left:5px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cimage{
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 330px;
+    height: 230px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}

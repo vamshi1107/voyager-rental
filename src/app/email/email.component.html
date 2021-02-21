@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="epage" id="on">
+        <p id="em_name">EMAIL VERIFICATION</p>
+        <mat-form-field appearance="outline" id="in">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="email" required [(ngModel)]="email" type="text">
+          </mat-form-field>
+          <div id="repcon"></div>
+          <button (click)="verify()">VERIFY</button>
+          <a routerLink="/phone" id="verPhone" (click)="gran()">VERIFY PHONE</a>
+    </div>
+    <div class="epage" id="boa">
+        <p id="em_name">EMAIL VERIFICATION</p>
+        <mat-form-field appearance="outline" id="in">
+            <mat-label>OTP</mat-label>
+            <input matInput placeholder="otp" required [(ngModel)]="pass" type="text">
+          </mat-form-field>
+          <div id="repcon"></div>
+          <button (click)="check()">VERIFY</button>
+    </div>
+</body>
+</html>

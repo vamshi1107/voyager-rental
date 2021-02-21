@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="page" id="astart">
+    <br>
+    <p id="msg">{{msg}}</p>
+    <mat-tab-group allign="center">
+      <mat-tab label="CARS">
+        <div id="rpage">
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>CAR NAME</mat-label>
+            <input matInput placeholder="NAME" [(ngModel)]="name" required>
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>COMPANY</mat-label>
+            <input matInput placeholder="COMPANY" [(ngModel)]="company">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>MILEAGE</mat-label>
+            <input matInput placeholder="20kmph" required [(ngModel)]="mileage">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>TYPE</mat-label>
+            <input matInput placeholder="SUV" required [(ngModel)]="type">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>COST</mat-label>
+            <input matInput placeholder="100" required [(ngModel)]="cost" type="text">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>RATING</mat-label>
+            <input matInput placeholder="3" required [(ngModel)]="rating" type="text">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>LINK</mat-label>
+            <input matInput placeholder="LINK" required [(ngModel)]="link" type="text">
+          </mat-form-field><br>
+          <button id="logbut" class="login" (click)="insert()">INSERT</button>
+
+        </div>
+
+      </mat-tab>
+      <mat-tab label="CYCLES">
+        <div id="rpage">
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>NAME</mat-label>
+            <input matInput placeholder="NAME" [(ngModel)]="cname" required>
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>TYPE</mat-label>
+            <input matInput placeholder="PLANE" required [(ngModel)]="ctype">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>COST</mat-label>
+            <input matInput placeholder="100" required [(ngModel)]="ccost" type="text">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>RATING</mat-label>
+            <input matInput placeholder="3" required [(ngModel)]="crating" type="text">
+          </mat-form-field>
+          <mat-form-field appearance="outline" id="in">
+            <mat-label>LINK</mat-label>
+            <input matInput placeholder="LINK" required [(ngModel)]="clink" type="text">
+          </mat-form-field><br>
+          <button id="logbut" class="login" (click)="insert2()">INSERT</button>
+
+        </div>
+
+      </mat-tab>
+    </mat-tab-group>
+
+  </div>
+</body>
+
+</html>

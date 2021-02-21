@@ -1,0 +1,33 @@
+.epage{
+    height: 70vh;
+    width: 60vw;
+    background-color: aliceblue;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#boa{
+    display: none;
+}
+
+#in{
+    margin-top: 10vh;
+    width: 450px;
+}
+
+#em_name{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#verPhone{
+    margin-top: 20px;
+    
+}

@@ -1,0 +1,218 @@
+.page{
+    height: 75vh;
+    width: 60vw;
+    background-color: aliceblue;
+    position: relative;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+.login{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 3vh;
+    background-color: aliceblue;
+    outline: none;
+    margin: 20px;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 1px solid grey;
+    position: relative;
+}
+
+#head{
+   margin-right: auto;
+   margin-left: auto;
+    margin-top: 6vh;
+    font-family: fantasy;
+    font-size: 5vh;
+}
+
+#username{
+    margin-top: 10vh;
+}
+#logbut{
+    height: 6vh;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
+    box-shadow: none;
+    border-radius: 1.5px solid grey;
+}
+
+#logbut:active,:focus{
+    border-radius: 2px solid black;
+    
+}
+
+#logbut:hover{
+
+    background-color: aquamarine;
+
+}
+#password{
+    margin-top: 10vh;
+    display: none;
+
+
+}
+
+#end{
+  display: none;
+  text-align: center;
+}
+
+#greet{
+    margin: auto;
+    font-family: fantasy;
+    font-size: 40px;
+    color: greenyellow;
+    margin-top: 45vh;
+}
+
+#out{
+    text-align: center;
+    padding:20px;
+    display: none;
+}
+
+body{
+    overflow: none;
+}
+
+
+body{
+    overflow: hidden;
+}
+
+
+
+#fron{
+    display: flex;
+    flex-direction: column;
+}
+
+#tile{
+    margin: 10px 10px 10px 10px;
+    width: 80%;
+}
+
+#logout{
+    position: absolute;
+    bottom: 0px;
+}
+
+
+#in{
+    width: 45%;
+    margin: 5px;
+}
+
+#reg{
+    margin-top: 6vh;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#regbut{
+    margin-left: 15vw;
+    
+}
+
+#rpage{
+    overflow: auto;
+    height: 55vh;
+    width: 100%;
+    overflow: auto;
+}
+#rpage::-webkit-scrollbar{
+    width: 0px;
+}
+
+#panel{
+    width: 100%;
+}
+
+#lop{
+    position: relative;
+   justify-content: space-between;
+    width: 100%;
+}
+
+#exp{
+    width: 90%;
+    overflow: auto;
+}
+
+#back{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10vw;
+    height: 4vh;
+}
+
+#age{
+    width: 10vw;
+}
+
+#ext{
+    display: flex;
+    justify-content: space-between;
+}
+
+#rp{
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+input[type="file" i] {
+    appearance: initial;
+    background-color: initial;
+    cursor: default;
+    align-items: baseline;
+    color: inherit;
+    text-overflow: ellipsis;
+    white-space: pre;
+    text-align: start !important;
+    padding: initial;
+    border: initial;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#tdin{
+    margin-left: 250px;
+}
+
+#lname{
+    margin: 10px 10px 10px 10px;
+}
+
+#regbut{
+    position: relative;
+    background-color: aqua;
+}
+
+#regbut:hover{
+    background-color: whitesmoke;
+}
+#regbut:focus:active{
+    box-shadow: -5px 6px 5px gray;
+}
+
+#adlink{
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+}

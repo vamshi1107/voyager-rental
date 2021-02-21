@@ -1,0 +1,136 @@
+
+#tp{
+    top:100px;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#to{
+    margin-top: -90px;
+    top:0px;
+    height: 100vh;
+    width: 100%;
+}
+.h_r{
+    height: 300px;
+    width: 80vw;
+}
+
+#h_d{
+    width: 35vw;
+}
+.cover p{
+    animation: anim 3s linear ease;
+}
+.cover{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/example-e2b44.appspot.com/o/car_ex.jpg?alt=media&token=03d2b00f-f19c-498c-a52a-8a5ca742e1ad");
+    background: cover;
+    background-position: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: fanstasy;
+    color: whitesmoke;
+    position: relative;
+    height: 90%;
+    z-index: -1;
+}
+.cover p{
+    font-size: 50px;
+
+    position: absolute;
+    font-family: fantasy;
+    word-spacing: 3px;
+   margin-left: 10vh;
+   margin-top: 40vh;
+  
+}
+.com{
+    height: 450px;
+    width: 90%;
+}
+
+#line{
+    margin-top: 50px;
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: auto;
+    position: relative;
+}
+.box{
+    top:50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#ele{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#ele{
+    justify-content: space-between;
+    
+}
+
+#add{
+    margin: 10px;
+}
+
+table{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+#s_img{
+    position: relative;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/voyager-rental.appspot.com/o/sanity.jpg?alt=media&token=e6d2fbe7-3512-4467-aae4-6e2da48237d5");
+    background-size: 100% 100%;
+    width: 35vw;
+    height: 350px;
+}
+
+#h_d{
+ position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#s_info{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    line-height: 30px;
+    color: beige;
+    text-align: center;
+}
+
+#s_img2{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/voyager-rental.appspot.com/o/maintenance.jpg?alt=media&token=b0bff937-501f-4fab-979c-f4215ba36018");
+    background-size: 100% 100%;
+    width: 35vw;
+    height: 350px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#s_head1{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: beige;
+    text-align: center;
+}
+
+#tp{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}

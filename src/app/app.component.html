@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../assets/dis.js"></script>
+
+</head>
+
+<body>
+  <div id="sidebar" (scroll)="hide()">
+    <button (click)="hide()">
+      hide
+    </button>
+  </div>
+  <header id="header">
+    <a id="name" href="/"> VOYAGER </a>
+    <div id="menu-con">
+      <div class="menu"><a id="item" routerLink="/home" routerLinkActive="active" style="color: aliceblue;">
+          <p style="color:aliceblue">Home</p>
+        </a>
+      </div>
+      <div class="menu"><a id="item" routerLink="/explore" routerLinkActive="active"
+          style="color: aliceblue;">Explore</a></div>
+      <div class="menu"><a id="item" routerLink="/car" routerLinkActive="active" style="color: aliceblue;">Cars </a>
+      </div>
+      <div class="menu"><a id="item" routerLink="/cycle" routerLinkActive="active" style="color: aliceblue;">Cycles </a>
+      </div>
+      <div class="menu" id="itemex" [matMenuTriggerFor]="menu">Admin </div>
+      <mat-menu #menu="matMenu">
+        <div mat-menu-item routerLink="/work" id="aitem">
+          Work
+        </div>
+        <div mat-menu-item routerLink="/orders" id="aitem">
+          Orders
+        </div>
+      </mat-menu>
+    </div>
+    <div id="idiv">
+      <button id="log" routerLink="/login" routerLinkActive="logEffect"><a routerLink="/login"
+          id="logname">{{login}}</a></button>
+    </div>
+  </header>
+  <router-outlet base="/home"></router-outlet>
+</body>
+
+</html>

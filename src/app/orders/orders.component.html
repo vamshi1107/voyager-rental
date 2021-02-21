@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="div">
+        <mat-grid-list cols=4 rowHeight=400px style="top:60px">
+            <mat-grid-tile *ngFor="let i of this.orders">
+                <mat-card class="card">
+                    <div class="name">{{i.order.name | uppercase}}</div>
+                    <table id="stuff">
+                        <tr>
+                            <td id="mheading">NAME</td>
+                            <td>:</td>
+                            <td> <span (click)="pass(i.username)" id="u_nm">{{i.username}}</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="mheading">COST</td>
+                            <td>:</td>
+                            <td>{{i.order.cost}}</td>
+                        </tr>
+                        <tr>
+                            <td id="mheading">HOURS</td>
+                            <td>:</td>
+                            <td  >{{i.order.hours}}</td>
+                        </tr>
+                        <tr>
+                            <td id="mheading">DATE</td>
+                            <td>:</td>
+                            <td>{{i.order.date}}</td>
+                        </tr>
+                        <tr  *ngIf="i.order.delivery !== none">
+                            <td id="mheading">DELIVERY</td>
+                            <td>:</td>
+                            <td>{{i.order.delivery}}</td>
+                        </tr>
+                        <tr>
+                            <td id="mheading">TOTAL</td>
+                            <td>:</td>
+                            <td>{{i.order.total}}</td>
+                        </tr>
+                    </table>
+                </mat-card>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</body>
+
+</html>

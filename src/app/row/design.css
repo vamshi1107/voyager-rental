@@ -1,0 +1,131 @@
+#one{
+    width: 900px;
+    height: 400px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 45% 45%;
+ }
+
+ .elements{
+     float: left;
+ }
+ #one::-webkit-scrollbar{
+     width: none;
+     height: none;
+ }
+ html::-webkit-scrollbar{
+     width: none;
+ }
+ #name{
+ font-size: 30px;
+ color:red;
+ font-family: fantasy;
+ }
+ #id{
+     display: none;
+ }
+ #success{
+     text-align: center;
+ }
+ #failure{
+     text-align: center;
+
+ }
+ #img{
+     width: 400px;
+     height: 350px;
+     background-size: 100% 100%;
+     border-radius: 20px;
+ }
+ h1{
+     text-align: center;
+ }
+ #inputs{
+     display: flex;
+     flex-direction: column;
+     margin-left: 5vh;
+ }
+ #c_name{
+     font-size: 25px;
+     font-family: fantasy;
+     margin-left: 0px;
+     margin-right: 0px;
+ }
+
+ 
+ svg{
+     width: 50px;
+     height: 50px;
+ }
+
+ #icons{
+    margin-top:50px;
+     display: grid;
+     row-gap: 1;
+     column-gap: 1;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ #i1{
+     grid-row: 0;
+     grid-column: 1;
+ }
+ #i2{
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.sv{
+    margin: 10px 10px 10px 10px;
+}
+
+#extra{
+    height: 40px;
+    border: 5px solid white;
+}
+
+table{
+    width: 30vw;
+}
+tr{
+    border-bottom-color:black ;
+border-bottom-width:3px ;
+    border-bottom-style: groove;
+}
+td{
+    font-size: 20px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    color: black;
+}
+
+
+#addbut{
+    width: 300px;
+    height: 100px;
+}
+
+#add{
+    font-size: 20px;
+    font-family: fantasy;
+    height: 40px;
+    width: 240px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: 20vw;
+    border-radius: 25px;
+    background-color: cream;
+
+}
+#add:hover{
+    background-color: white;
+}
+
+#add:focus,:active{
+    outline: none;
+}
+
+#calu{
+    height: 100px;
+    width: 100%;
+}
